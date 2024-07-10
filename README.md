@@ -1,7 +1,7 @@
 # Royale Launcher
 
 
-Royale Launcher è un piccolo progetto progettato per semplificare l'accesso alle applicazioni preferite degli utenti, raggruppandole in un unico spazio personalizzabile. È ideale per chi desidera un'esperienza di utilizzo più efficiente e personalizzata.
+Royale Launcher è un piccolo progetto nato per semplificare l'accesso alle applicazioni preferite degli utenti, raggruppandole in un unico spazio personalizzabile. È ideale per chi desidera un'esperienza di utilizzo più efficiente e personalizzata.
 
 ## Caratteristiche principali
 
