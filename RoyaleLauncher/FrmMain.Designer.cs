@@ -406,7 +406,7 @@
             this.BtnRegistraGioco.Name = "BtnRegistraGioco";
             this.BtnRegistraGioco.Size = new System.Drawing.Size(144, 44);
             this.BtnRegistraGioco.TabIndex = 10;
-            this.BtnRegistraGioco.Text = "Registra/Elimina \r\n         APP";
+            this.BtnRegistraGioco.Text = "Registra/Elimina \r\n         App";
             this.BtnRegistraGioco.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnRegistraGioco.UseVisualStyleBackColor = true;
             this.BtnRegistraGioco.Click += new System.EventHandler(this.BtnRegistraGioco_Click);
