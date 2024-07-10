@@ -1,7 +1,7 @@
 # Royale Launcher
 
 
-Royale Launcher è un piccolo progetto progettato per semplificare l'accesso alle applicazioni preferite degli utenti, raggruppandole in un unico spazio personalizzabile. È ideale per chi desidera un'esperienza di utilizzo più efficiente e personalizzata.
+Royale Launcher è un piccolo progetto nato per semplificare l'accesso alle applicazioni preferite degli utenti, raggruppandole in un unico spazio personalizzabile. È ideale per chi desidera un'esperienza di utilizzo più efficiente e personalizzata.
 
 ## Caratteristiche principali
 
@@ -20,6 +20,14 @@ Royale Launcher è un piccolo progetto progettato per semplificare l'accesso all
 
 ![Impostazioni](ShowCaseSettings.png)
 *Configurazione delle impostazioni nel Royale Launcher.*
+
+## Installazione
+
+Puoi scaricare l'ultima versione stabile di Royale Launcher dall'apposita sezione delle [Releases](https://github.com/tuonome/RoyaleLauncher/releases).
+
+1. Vai alla pagina delle [Releases](https://github.com/TopalliAlesjo/RoyaleLauncher/releases) su GitHub.
+2. Scarica il file di installazione per la versione desiderata (ad esempio `RoyaleLauncher-v1.1.6.0-setup.exe`).
+3. Esegui il file di installazione e segui le istruzioni sullo schermo per completare l'installazione.
 
 ## Segnalazione dei Bug
 
