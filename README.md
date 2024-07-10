@@ -21,6 +21,14 @@ Royale Launcher è un piccolo progetto nato per semplificare l'accesso alle appl
 ![Impostazioni](ShowCaseSettings.png)
 *Configurazione delle impostazioni nel Royale Launcher.*
 
+## Installazione
+
+Puoi scaricare l'ultima versione stabile di Royale Launcher dall'apposita sezione delle [Releases](https://github.com/tuonome/RoyaleLauncher/releases).
+
+1. Vai alla pagina delle [Releases](https://github.com/TopalliAlesjo/RoyaleLauncher/releases) su GitHub.
+2. Scarica il file di installazione per la versione desiderata (ad esempio `RoyaleLauncher-v1.1.6.0-setup.exe`).
+3. Esegui il file di installazione e segui le istruzioni sullo schermo per completare l'installazione.
+
 ## Segnalazione dei Bug
 
 Se trovi un bug o riscontri un problema con RoyaleLauncher, ti invitiamo gentilmente ad aprire una nuova issue nel nostro [tracker delle issue](https://github.com/TopalliAlesjo/RoyaleLauncher/issues).
