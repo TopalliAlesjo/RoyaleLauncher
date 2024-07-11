@@ -323,7 +323,77 @@ namespace RoyaleLauncher
             switch (Apps)
             {
                 case 1:
-                    // nulla
+                    if (Passaggio)
+                    {
+                        checkapps = true;
+                        ////////////////////////////
+                        /////// PRIMO CASE
+                        ////////////////////////////
+                        //////////////////////////////////// primo bottone
+                        Query = "SELECT * " +
+                                "FROM Path " +
+                                "WHERE AppPosition = 1";
+                        cmd = new OleDbCommand(Query, cn);
+                        da = new OleDbDataAdapter(cmd);
+                        Tabella = new DataTable();
+                        da.Fill(Tabella);
+                        id = Tabella.Rows[0]["ID"].ToString();
+                        BtnApp1.Text = id;
+                        CmbApp1.Texts = id; // carico id sulla combo box nei settings
+                        Query = "SELECT * " +
+                                "FROM Path " +
+                                "WHERE AppPosition = 1";
+                        cmd = new OleDbCommand(Query, cn);
+                        da = new OleDbDataAdapter(cmd);
+                        Tabella = new DataTable();
+                        da.Fill(Tabella);
+                        start = Tabella.Rows[0]["start"].ToString();
+                        fileExtension = System.IO.Path.GetExtension(start);
+                        if (fileExtension.ToLower() == ".exe")
+                        {
+                            Icon appIcon = Icon.ExtractAssociatedIcon(start);
+                            Image BtnImage = appIcon.ToBitmap();
+                            BtnApp1.Image = BtnImage;
+                        }
+                        else
+                        {
+                            BtnApp1.Image = ColoreApp;
+                            AppNoLogo1 = true;
+                        }
+                        BtnApp1.Visible = true;
+                    }
+                    else {
+                        //////////////////////////////////// primo bottone
+                        Query = "SELECT * " +
+                                "FROM Path";
+                        cmd = new OleDbCommand(Query, cn);
+                        da = new OleDbDataAdapter(cmd);
+                        Tabella = new DataTable();
+                        da.Fill(Tabella);
+                        id = Tabella.Rows[0]["ID"].ToString();
+                        BtnApp1.Text = id;
+
+                        Query = "SELECT * " +
+                                "FROM Path";
+                        cmd = new OleDbCommand(Query, cn);
+                        da = new OleDbDataAdapter(cmd);
+                        Tabella = new DataTable();
+                        da.Fill(Tabella);
+                        start = Tabella.Rows[0]["start"].ToString();
+                        fileExtension = System.IO.Path.GetExtension(start);
+                        if (fileExtension.ToLower() == ".exe")
+                        {
+                            Icon appIcon = Icon.ExtractAssociatedIcon(start);
+                            Image BtnImage = appIcon.ToBitmap();
+                            BtnApp1.Image = BtnImage;
+                        }
+                        else
+                        {
+                            BtnApp1.Image = ColoreApp;
+                            AppNoLogo1 = true;
+                        }
+                        BtnApp1.Visible = true;
+                    }
                     break;
                 case 2:
                     if (Passaggio) // && checka != 1 && Variabili.FrmDatabasePassaggioEliminazione == false
