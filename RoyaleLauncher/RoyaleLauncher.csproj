@@ -250,6 +250,7 @@
     <None Include="Assets\Arancione-Verde\app.png" />
     <None Include="Assets\DarkMode\Folder.png" />
     <None Include="Assets\folderNera.png" />
+    <None Include="Assets\return.png" />
     <Content Include="RoyaleLauncher.ico" />
     <None Include="Assets\warning.png" />
     <None Include="Resources\Backgound.bmp" />

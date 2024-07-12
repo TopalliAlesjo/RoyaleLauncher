@@ -4,17 +4,14 @@ using System.Data;
 using System.Data.OleDb;
 using System.Diagnostics;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 
 namespace RoyaleLauncher
 {
     public partial class FrmMiddleMan : Form
     {
-        bool Logo = false,DarkMode = false;
+        bool Logo = false, DarkMode = false;
         // trascinare finestra
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -345,7 +342,7 @@ namespace RoyaleLauncher
             }
         }
 
-        private  void RdbTrasparenzaAttiva_CheckedChanged(object sender, EventArgs e)
+        private void RdbTrasparenzaAttiva_CheckedChanged(object sender, EventArgs e)
         {
             // rende true la trasparenza
             OleDbConnection cn;
@@ -365,7 +362,7 @@ namespace RoyaleLauncher
             cn.Close();
         }
 
-        private  void RdbTrasparenzaDisattivata_CheckedChanged(object sender, EventArgs e)
+        private void RdbTrasparenzaDisattivata_CheckedChanged(object sender, EventArgs e)
         {
             // rende false la trasparenza
             OleDbConnection cn;

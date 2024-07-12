@@ -13,7 +13,7 @@ namespace RoyaleLauncher
     public partial class FrmApplicazioni : Form
     {
         int Apps;
-        bool Logo = false,DarkMode = false;
+        bool Logo = false, DarkMode = false;
         Bitmap ColoreApp;
         // trascinare finestra
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -314,6 +314,7 @@ namespace RoyaleLauncher
                 case 5:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -331,6 +332,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -348,6 +350,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -365,6 +368,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[3]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[3]["start"].ToString();
@@ -382,6 +386,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -401,6 +406,7 @@ namespace RoyaleLauncher
                 case 6:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -418,6 +424,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -435,6 +442,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -452,6 +460,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -469,6 +478,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -486,6 +496,7 @@ namespace RoyaleLauncher
                     BtnApp5.Visible = true;
                     ///////////////////////////////////////// prende ID #6
                     id = Tabella.Rows[5]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp6.Text = id;
                     ///////////////////////////////////////// prende Start #6
                     start2 = Tabella.Rows[5]["start"].ToString();
@@ -505,6 +516,7 @@ namespace RoyaleLauncher
                 case 7:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -522,6 +534,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -539,6 +552,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -556,6 +570,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -573,6 +588,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -590,6 +606,7 @@ namespace RoyaleLauncher
                     BtnApp5.Visible = true;
                     ///////////////////////////////////////// prende ID #6
                     id = Tabella.Rows[5]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp6.Text = id;
                     ///////////////////////////////////////// prende Start #6
                     start2 = Tabella.Rows[5]["start"].ToString();
@@ -607,6 +624,7 @@ namespace RoyaleLauncher
                     BtnApp6.Visible = true;
                     ///////////////////////////////////////// prende ID #7
                     id = Tabella.Rows[6]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp7.Text = id;
                     ///////////////////////////////////////// prende Start #7
                     start2 = Tabella.Rows[6]["start"].ToString();
@@ -626,6 +644,7 @@ namespace RoyaleLauncher
                 case 8:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -643,6 +662,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -660,6 +680,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -677,6 +698,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -694,6 +716,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -711,6 +734,7 @@ namespace RoyaleLauncher
                     BtnApp5.Visible = true;
                     ///////////////////////////////////////// prende ID #6
                     id = Tabella.Rows[5]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp6.Text = id;
                     ///////////////////////////////////////// prende Start #6
                     start2 = Tabella.Rows[5]["start"].ToString();
@@ -728,6 +752,7 @@ namespace RoyaleLauncher
                     BtnApp6.Visible = true;
                     ///////////////////////////////////////// prende ID #7
                     id = Tabella.Rows[6]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp7.Text = id;
                     ///////////////////////////////////////// prende Start #7
                     start2 = Tabella.Rows[6]["start"].ToString();
@@ -745,6 +770,7 @@ namespace RoyaleLauncher
                     BtnApp7.Visible = true;
                     ///////////////////////////////////////// prende ID #8
                     id = Tabella.Rows[7]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp8.Text = id;
                     ///////////////////////////////////////// prende Start #8
                     start2 = Tabella.Rows[7]["start"].ToString();
@@ -764,6 +790,7 @@ namespace RoyaleLauncher
                 case 9:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -781,6 +808,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -798,6 +826,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -815,6 +844,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -832,6 +862,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -849,6 +880,7 @@ namespace RoyaleLauncher
                     BtnApp5.Visible = true;
                     ///////////////////////////////////////// prende ID #6
                     id = Tabella.Rows[5]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp6.Text = id;
                     ///////////////////////////////////////// prende Start #6
                     start2 = Tabella.Rows[5]["start"].ToString();
@@ -866,6 +898,7 @@ namespace RoyaleLauncher
                     BtnApp6.Visible = true;
                     ///////////////////////////////////////// prende ID #7
                     id = Tabella.Rows[6]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp7.Text = id;
                     ///////////////////////////////////////// prende Start #7
                     start2 = Tabella.Rows[6]["start"].ToString();
@@ -883,6 +916,7 @@ namespace RoyaleLauncher
                     BtnApp7.Visible = true;
                     ///////////////////////////////////////// prende ID #8
                     id = Tabella.Rows[7]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp8.Text = id;
                     ///////////////////////////////////////// prende Start #8
                     start2 = Tabella.Rows[7]["start"].ToString();
@@ -900,6 +934,7 @@ namespace RoyaleLauncher
                     BtnApp8.Visible = true;
                     ///////////////////////////////////////// prende ID #9
                     id = Tabella.Rows[8]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp9.Text = id;
                     ///////////////////////////////////////// prende Start #9
                     start2 = Tabella.Rows[8]["start"].ToString();
@@ -919,6 +954,7 @@ namespace RoyaleLauncher
                 case 10:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -936,6 +972,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -953,6 +990,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -970,6 +1008,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -987,6 +1026,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -1004,6 +1044,7 @@ namespace RoyaleLauncher
                     BtnApp5.Visible = true;
                     ///////////////////////////////////////// prende ID #6
                     id = Tabella.Rows[5]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp6.Text = id;
                     ///////////////////////////////////////// prende Start #6
                     start2 = Tabella.Rows[5]["start"].ToString();
@@ -1021,6 +1062,7 @@ namespace RoyaleLauncher
                     BtnApp6.Visible = true;
                     ///////////////////////////////////////// prende ID #7
                     id = Tabella.Rows[6]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp7.Text = id;
                     ///////////////////////////////////////// prende Start #7
                     start2 = Tabella.Rows[6]["start"].ToString();
@@ -1038,6 +1080,7 @@ namespace RoyaleLauncher
                     BtnApp7.Visible = true;
                     ///////////////////////////////////////// prende ID #8
                     id = Tabella.Rows[7]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp8.Text = id;
                     ///////////////////////////////////////// prende Start #8
                     start2 = Tabella.Rows[7]["start"].ToString();
@@ -1055,6 +1098,7 @@ namespace RoyaleLauncher
                     BtnApp8.Visible = true;
                     ///////////////////////////////////////// prende ID #9
                     id = Tabella.Rows[8]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp9.Text = id;
                     ///////////////////////////////////////// prende Start #9
                     start2 = Tabella.Rows[8]["start"].ToString();
@@ -1072,6 +1116,7 @@ namespace RoyaleLauncher
                     BtnApp9.Visible = true;
                     ///////////////////////////////////////// prende ID #10
                     id = Tabella.Rows[9]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp10.Text = id;
                     ///////////////////////////////////////// prende Start #10
                     start2 = Tabella.Rows[9]["start"].ToString();
@@ -1091,6 +1136,7 @@ namespace RoyaleLauncher
                 case 11:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -1108,6 +1154,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -1125,6 +1172,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -1142,6 +1190,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -1159,6 +1208,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -1176,6 +1226,7 @@ namespace RoyaleLauncher
                     BtnApp5.Visible = true;
                     ///////////////////////////////////////// prende ID #6
                     id = Tabella.Rows[5]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp6.Text = id;
                     ///////////////////////////////////////// prende Start #6
                     start2 = Tabella.Rows[5]["start"].ToString();
@@ -1193,6 +1244,7 @@ namespace RoyaleLauncher
                     BtnApp6.Visible = true;
                     ///////////////////////////////////////// prende ID #7
                     id = Tabella.Rows[6]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp7.Text = id;
                     ///////////////////////////////////////// prende Start #7
                     start2 = Tabella.Rows[6]["start"].ToString();
@@ -1210,6 +1262,7 @@ namespace RoyaleLauncher
                     BtnApp7.Visible = true;
                     ///////////////////////////////////////// prende ID #8
                     id = Tabella.Rows[7]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp8.Text = id;
                     ///////////////////////////////////////// prende Start #8
                     start2 = Tabella.Rows[7]["start"].ToString();
@@ -1227,6 +1280,7 @@ namespace RoyaleLauncher
                     BtnApp8.Visible = true;
                     ///////////////////////////////////////// prende ID #9
                     id = Tabella.Rows[8]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp9.Text = id;
                     ///////////////////////////////////////// prende Start #9
                     start2 = Tabella.Rows[8]["start"].ToString();
@@ -1244,6 +1298,7 @@ namespace RoyaleLauncher
                     BtnApp9.Visible = true;
                     ///////////////////////////////////////// prende ID #10
                     id = Tabella.Rows[9]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp10.Text = id;
                     ///////////////////////////////////////// prende Start #10
                     start2 = Tabella.Rows[9]["start"].ToString();
@@ -1261,6 +1316,7 @@ namespace RoyaleLauncher
                     BtnApp10.Visible = true;
                     ///////////////////////////////////////// prende ID #11
                     id = Tabella.Rows[10]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp11.Text = id;
                     ///////////////////////////////////////// prende Start #11
                     start2 = Tabella.Rows[10]["start"].ToString();
@@ -1280,6 +1336,7 @@ namespace RoyaleLauncher
                 case 12:
                     ///////////////////////////////////////// prende ID #1
                     id = Tabella.Rows[0]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp1.Text = id;
                     ///////////////////////////////////////// prende Start #1
                     start2 = Tabella.Rows[0]["start"].ToString();
@@ -1297,6 +1354,7 @@ namespace RoyaleLauncher
                     BtnApp1.Visible = true;
                     ///////////////////////////////////////// prende ID #2
                     id = Tabella.Rows[1]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp2.Text = id;
                     ///////////////////////////////////////// prende Start #2
                     start2 = Tabella.Rows[1]["start"].ToString();
@@ -1314,6 +1372,7 @@ namespace RoyaleLauncher
                     BtnApp2.Visible = true;
                     ///////////////////////////////////////// prende ID #3
                     id = Tabella.Rows[2]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp3.Text = id;
                     ///////////////////////////////////////// prende Start #3
                     start2 = Tabella.Rows[2]["start"].ToString();
@@ -1331,6 +1390,7 @@ namespace RoyaleLauncher
                     BtnApp3.Visible = true;
                     ///////////////////////////////////////// prende ID #4
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp4.Text = id;
                     ///////////////////////////////////////// prende Start #4
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -1348,6 +1408,7 @@ namespace RoyaleLauncher
                     BtnApp4.Visible = true;
                     ///////////////////////////////////////// prende ID #5
                     id = Tabella.Rows[4]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp5.Text = id;
                     ///////////////////////////////////////// prende Start #5
                     start2 = Tabella.Rows[4]["start"].ToString();
@@ -1365,6 +1426,7 @@ namespace RoyaleLauncher
                     BtnApp5.Visible = true;
                     ///////////////////////////////////////// prende ID #6
                     id = Tabella.Rows[5]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp6.Text = id;
                     ///////////////////////////////////////// prende Start #6
                     start2 = Tabella.Rows[5]["start"].ToString();
@@ -1382,6 +1444,7 @@ namespace RoyaleLauncher
                     BtnApp6.Visible = true;
                     ///////////////////////////////////////// prende ID #7
                     id = Tabella.Rows[6]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp7.Text = id;
                     ///////////////////////////////////////// prende Start #7
                     start2 = Tabella.Rows[6]["start"].ToString();
@@ -1399,6 +1462,7 @@ namespace RoyaleLauncher
                     BtnApp7.Visible = true;
                     ///////////////////////////////////////// prende ID #8
                     id = Tabella.Rows[7]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp8.Text = id;
                     ///////////////////////////////////////// prende Start #8
                     start2 = Tabella.Rows[7]["start"].ToString();
@@ -1416,6 +1480,7 @@ namespace RoyaleLauncher
                     BtnApp8.Visible = true;
                     ///////////////////////////////////////// prende ID #9
                     id = Tabella.Rows[8]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp9.Text = id;
                     ///////////////////////////////////////// prende Start #9
                     start2 = Tabella.Rows[8]["start"].ToString();
@@ -1433,6 +1498,7 @@ namespace RoyaleLauncher
                     BtnApp9.Visible = true;
                     ///////////////////////////////////////// prende ID #10
                     id = Tabella.Rows[9]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp10.Text = id;
                     ///////////////////////////////////////// prende Start #10
                     start2 = Tabella.Rows[9]["start"].ToString();
@@ -1450,6 +1516,7 @@ namespace RoyaleLauncher
                     BtnApp10.Visible = true;
                     ///////////////////////////////////////// prende ID #11
                     id = Tabella.Rows[10]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp11.Text = id;
                     ///////////////////////////////////////// prende Start #11
                     start2 = Tabella.Rows[10]["start"].ToString();
@@ -1467,6 +1534,7 @@ namespace RoyaleLauncher
                     BtnApp11.Visible = true;
                     ///////////////////////////////////////// prende ID #12
                     id = Tabella.Rows[11]["ID"].ToString();
+		    	id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                     BtnApp12.Text = id;
                     ///////////////////////////////////////// prende Start #12
                     start2 = Tabella.Rows[11]["start"].ToString();
@@ -1907,9 +1975,10 @@ namespace RoyaleLauncher
                 if (DarkMode)
                 {
                     PcbLogo.Image = Resources.OspiteNero;
-                } else
+                }
+                else
                 {
-                PcbLogo.Image = Resources.ospite;
+                    PcbLogo.Image = Resources.ospite;
                 }
             }
             else
@@ -2249,7 +2318,7 @@ namespace RoyaleLauncher
                 ColoreApp = Resources.appNero;
             }
             // carica icona dei btnApp in base al colore
-            if (Variabili.Pass >= 1) 
+            if (Variabili.Pass >= 1)
             {
                 if (Colore == "Arancione")
                 {
@@ -2326,7 +2395,7 @@ namespace RoyaleLauncher
         }
 
         private void FrmApplicazioni_Activated(object sender, EventArgs e)
-        {   
+        {
             OleDbConnection cn;
             OleDbCommand cmd;
             OleDbDataAdapter da;
@@ -2349,7 +2418,59 @@ namespace RoyaleLauncher
             Apps = Tabella.Rows.Count;
             CaricaVarColoriSecondario();
             ShowBtnNecessari();
-            CaricaBtnApps(Query,cn,cmd,da,Tabella);
+            CaricaBtnApps(Query, cn, cmd, da, Tabella);
+        }
+        private void BtnAllineamentoImage()
+        {
+            int Max = 12;
+            while (BtnApp1.Text.Length < Max)
+            {
+                BtnApp1.Text += " ";
+            }
+            while (BtnApp2.Text.Length < Max)
+            {
+                BtnApp2.Text += " ";
+            }
+            while (BtnApp3.Text.Length < Max)
+            {
+                BtnApp3.Text += " ";
+            }
+            while (BtnApp4.Text.Length < Max)
+            {
+                BtnApp4.Text += " ";
+            }
+            while (BtnApp5.Text.Length < Max)
+            {
+                BtnApp5.Text += " ";
+            }
+            while (BtnApp6.Text.Length < Max)
+            {
+                BtnApp6.Text += " ";
+            }
+            while (BtnApp7.Text.Length < Max)
+            {
+                BtnApp7.Text += " ";
+            }
+            while (BtnApp8.Text.Length < Max)
+            {
+                BtnApp8.Text += " ";
+            }
+            while (BtnApp9.Text.Length < Max)
+            {
+                BtnApp9.Text += " ";
+            }
+            while (BtnApp10.Text.Length < Max)
+            {
+                BtnApp10.Text += " ";
+            }
+            while (BtnApp11.Text.Length < Max)
+            {
+                BtnApp11.Text += " ";
+            }
+            while (BtnApp12.Text.Length < Max)
+            {
+                BtnApp12.Text += " ";
+            }
         }
     }
 }

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alesj\\Documents\\GitHub\\RoyaleLauncher\\RoyaleLauncher\\",
+  "WorkspaceRootPath": "C:\\Users\\alesj\\Desktop\\RoyaleLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|c:\\users\\alesj\\documents\\github\\royalelauncher\\royalelauncher\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|c:\\users\\alesj\\desktop\\royalelauncher\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|c:\\users\\alesj\\documents\\github\\royalelauncher\\royalelauncher\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|c:\\users\\alesj\\desktop\\royalelauncher\\frmsettingsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3CAD07A-5B32-4FA9-9CD3-1274BBC7681B}|RoyaleLauncher.csproj|solutionrelative:frmsettingsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmMain.cs",
-              "DocumentMoniker": "C:\\Users\\alesj\\Documents\\GitHub\\RoyaleLauncher\\RoyaleLauncher\\FrmMain.cs",
-              "RelativeDocumentMoniker": "FrmMain.cs",
-              "ToolTip": "C:\\Users\\alesj\\Documents\\GitHub\\RoyaleLauncher\\RoyaleLauncher\\FrmMain.cs",
-              "RelativeToolTip": "FrmMain.cs",
-              "ViewState": "AQIAAM0AAAAAAAAAAAAAwMcAAAAVAAAA",
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\alesj\\Desktop\\RoyaleLauncher\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\alesj\\Desktop\\RoyaleLauncher\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T22:27:35.154Z",
+              "WhenOpened": "2024-07-12T00:20:11.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmMain.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\alesj\\Documents\\GitHub\\RoyaleLauncher\\RoyaleLauncher\\FrmMain.cs",
-              "RelativeDocumentMoniker": "FrmMain.cs",
-              "ToolTip": "C:\\Users\\alesj\\Documents\\GitHub\\RoyaleLauncher\\RoyaleLauncher\\FrmMain.cs [Progettazione]",
-              "RelativeToolTip": "FrmMain.cs [Progettazione]",
+              "Title": "FrmSettingsDatabase.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\alesj\\Desktop\\RoyaleLauncher\\FrmSettingsDatabase.cs",
+              "RelativeDocumentMoniker": "FrmSettingsDatabase.cs",
+              "ToolTip": "C:\\Users\\alesj\\Desktop\\RoyaleLauncher\\FrmSettingsDatabase.cs [Progettazione]",
+              "RelativeToolTip": "FrmSettingsDatabase.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T22:27:33.372Z",
+              "WhenOpened": "2024-07-12T00:18:16.221Z",
               "EditorCaption": " [Progettazione]"
             }
           ]

@@ -3,7 +3,6 @@ using System;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,7 +11,7 @@ namespace RoyaleLauncher
 {
     public partial class FrmSettingsDatabase : Form
     {
-        bool Logo = false,DarkMode = false;
+        bool Logo = false, DarkMode = false;
 
         // trascinare finestra
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -45,7 +44,7 @@ namespace RoyaleLauncher
         }
         private void FrmSettingsDatabase_Load(object sender, EventArgs e)
         {
-            
+
             CaricaTrasparenza(); // carica la trasparenza del form
             CaricaColori(); // carica stile colori form
             Variabili.FrmUsernamePERapps = false; // inizializza variabile

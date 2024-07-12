@@ -4,8 +4,6 @@ using System.Data;
 using System.Data.OleDb;
 using System.Diagnostics;
 using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,7 +12,7 @@ namespace RoyaleLauncher
 {
     public partial class FrmMain : Form
     {
-        bool app1, app2, app3, app4, checkapps, AppNoLogo1, AppNoLogo2, AppNoLogo3, AppNoLogo4, Logo = false,Darkmode = false;
+        bool app1, app2, app3, app4, checkapps, AppNoLogo1, AppNoLogo2, AppNoLogo3, AppNoLogo4, Logo = false, Darkmode = false;
 
         int righe, checka;
         Bitmap ColoreApp;
@@ -338,8 +336,10 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
                         CmbApp1.Texts = id; // carico id sulla combo box nei settings
+
                         Query = "SELECT * " +
                                 "FROM Path " +
                                 "WHERE AppPosition = 1";
@@ -371,6 +371,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
 
                         Query = "SELECT * " +
@@ -411,8 +412,10 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
                         CmbApp1.Texts = id; // carico id sulla combo box nei settings
+
                         Query = "SELECT * " +
                                 "FROM Path " +
                                 "WHERE AppPosition = 1";
@@ -444,10 +447,12 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp2.Text = id;
                         CmbApp2.Texts = id; // carico id sulla combo box nei settings
                         CmbApp3.Enabled = false; // rimuovo la possibilità di cambiare posizione app alle altre 2
                         CmbApp4.Enabled = false;
+
                         Query = "SELECT * " +
                                 "FROM Path " +
                                 "WHERE AppPosition = 2";
@@ -480,6 +485,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
 
                         Query = "SELECT * " +
@@ -511,6 +517,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[1]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp2.Text = id;
 
                         Query = "SELECT * " +
@@ -551,6 +558,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
                         CmbApp1.Texts = id; // carico id sulla combo box nei settings
 
@@ -585,6 +593,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp2.Text = id;
                         CmbApp2.Texts = id; // carico id sulla combo box nei settings
 
@@ -619,7 +628,8 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
-                        BtnApp3.Text = id; 
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
+                        BtnApp3.Text = id;
                         CmbApp3.Texts = id; // carico id sulla combo box nei settings
                         CmbApp4.Enabled = false; // rimuovo la possibilità di cambiare posizione app all'ultima
 
@@ -656,6 +666,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
 
                         Query = "SELECT * " +
@@ -687,6 +698,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[1]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp2.Text = id;
 
                         Query = "SELECT * " +
@@ -718,6 +730,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[2]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp3.Text = id;
 
                         Query = "SELECT * " +
@@ -758,6 +771,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
                         CmbApp1.Texts = id; // carico id sulla combo box nei settings
 
@@ -792,6 +806,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp2.Text = id;
                         CmbApp2.Texts = id; // carico id sulla combo box nei settings
 
@@ -826,6 +841,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp3.Text = id;
                         CmbApp3.Texts = id; // carico id sulla combo box nei settings
 
@@ -860,6 +876,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp4.Text = id;
                         CmbApp4.Texts = id; // carico id sulla combo box nei settings
 
@@ -895,6 +912,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[0]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp1.Text = id;
 
                         Query = "SELECT * " +
@@ -926,6 +944,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[1]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp2.Text = id;
 
                         Query = "SELECT * " +
@@ -957,6 +976,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[2]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp3.Text = id;
 
                         Query = "SELECT * " +
@@ -988,6 +1008,7 @@ namespace RoyaleLauncher
                         Tabella = new DataTable();
                         da.Fill(Tabella);
                         id = Tabella.Rows[3]["ID"].ToString();
+                        id = id.Substring(0, 1).ToUpper() + id.Substring(1);
                         BtnApp4.Text = id;
 
                         Query = "SELECT * " +
@@ -1013,6 +1034,7 @@ namespace RoyaleLauncher
                     }
                     break;
             }
+            BtnAllineamentoImage();
         }
 
         private void BtnEsci_Click(object sender, EventArgs e)
@@ -1127,10 +1149,10 @@ namespace RoyaleLauncher
             DataTable tabella;
             string Query;
 
-                // connetto al database
-                string connessione = $@"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={Application.StartupPath}\Launcher.accdb";
-                cn = new OleDbConnection(connessione);
-                cn.Open(); // apro il database
+            // connetto al database
+            string connessione = $@"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={Application.StartupPath}\Launcher.accdb";
+            cn = new OleDbConnection(connessione);
+            cn.Open(); // apro il database
             try
             {
                 /////////////////////
@@ -1246,7 +1268,9 @@ namespace RoyaleLauncher
 
 
                 Process.Start(path); // Avvia l'app
-            } catch (Exception ex) {
+            }
+            catch (Exception ex)
+            {
                 MessageBox.Show($@"Errore: {ex} {Environment.NewLine} !!!SE IL PROBLEMA PERSISTE PERFAVORE CONTATTARE IL CREATORE!!!", "Satus: ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             // Controlla se l'uscita automatica è attiva 
@@ -3008,6 +3032,26 @@ namespace RoyaleLauncher
             BtnRiordinaApps.Visible = false;
             BtnSettingDisinstalla.Visible = false;
             PcbMain.Location = new Point(188, 43);
+        }
+        private void BtnAllineamentoImage()
+        {
+            //int Max = 28;
+            //while (BtnApp1.Text.Length < Max)
+            //{
+            //    BtnApp1.Text += " ";
+            //}
+            //while (BtnApp2.Text.Length < Max)
+            //{
+            //    BtnApp2.Text += " ";
+            //}
+            //while (BtnApp3.Text.Length < Max)
+            //{
+            //    BtnApp3.Text += " ";
+            //}
+            //while (BtnApp4.Text.Length < Max)
+            //{
+            //    BtnApp4.Text += " ";
+            //}
         }
     }
 }

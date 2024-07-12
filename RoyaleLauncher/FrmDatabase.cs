@@ -3,7 +3,7 @@ using System;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
-using System.Drawing.Drawing2D;
+using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,7 +12,7 @@ namespace RoyaleLauncher
 {
     public partial class FrmDatabase : Form
     {
-        bool Logo = false, DarkMode = false;
+        bool Logo = false, DarkMode = false,NomePersonalizzato = false;
         // trascinare finestra
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -171,7 +171,7 @@ namespace RoyaleLauncher
         private async void BtnRegistraGioco_Click(object sender, EventArgs e)
         {
             string IDcheck, StartCheck, Foto;
-            if (TxtIdRegistra.Texts.Trim() == "" || TxtStartRegistra.Texts.Trim() == "Seleziona File") // fa un check se i campi compilati
+            if (TxtIdRegistra.Texts == "Seleziona L'App" || TxtIdRegistra.Texts.Trim() == ""  || TxtStartRegistra.Texts.Trim() == "Seleziona File") // fa un check se i campi compilati
             {
                 MessageBox.Show($"Errore:  compilare i campi.", "Status: ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -225,7 +225,7 @@ namespace RoyaleLauncher
                     }
 
                     // rende come all'inizio i campi cosi da poter registrare altre app
-                    TxtIdRegistra.Texts = "";
+                    TxtIdRegistra.Texts = "Seleziona L'App";
                     TxtStartRegistra.Texts = "Seleziona File";
                     TxtFotoRegistra.Texts = "Seleziona File";
                     // refresha le app disponibili nella cmb cosi da poterne usufruire 
@@ -304,6 +304,11 @@ namespace RoyaleLauncher
             {
                 string FilePath = OfdFileStart.FileName;
                 TxtStartRegistra.Texts = FilePath;
+                if (!NomePersonalizzato)
+                {
+                    string NomeApp = Path.GetFileNameWithoutExtension(OfdFileStart.FileName);
+                    TxtIdRegistra.Texts = NomeApp;
+                }
             }
         }
 
@@ -476,7 +481,7 @@ namespace RoyaleLauncher
                 RefreshColoreLauncher(); // carica colori dei elementi
                 RefreshBtnImage(); // cambia icone dei btn
             }
-            else if (Colore == "Verde") 
+            else if (Colore == "Verde")
             {
                 RefreshColoreLauncher(); // carica colori dei elementi
                 RefreshBtnImage(); // cambia icone dei btn
@@ -486,7 +491,7 @@ namespace RoyaleLauncher
                 RefreshColoreLauncher(); // carica colori dei elementi
                 RefreshBtnImage(); // cambia icone dei btn
             }
-            else if (Colore == "Dark Mode") 
+            else if (Colore == "Dark Mode")
             {
                 DarkMode = true; // quando si refresha il logo diventa nero per la darkmode
                 RefreshColoreLauncher(); // carica colori dei elementi
@@ -511,7 +516,6 @@ namespace RoyaleLauncher
 
             this.BackColor = Variabili.PnlDX;
             // lablel
-            LblCampoObbligatorioID.ForeColor = Variabili.Scritte;
             LblCampoObbligatorioStart.ForeColor = Variabili.Scritte;
             LblDescCampiObbligatori.ForeColor = Variabili.Scritte;
             LblDescEliminazione.ForeColor = Variabili.Scritte;
@@ -648,6 +652,21 @@ namespace RoyaleLauncher
                 MessageBox.Show($"Errore nella scelta del colore, Se il problema persiste perfavore contattare il creatore", "Status: ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void CkbNomePersonalizzato_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CkbNomePersonalizzato.Checked)
+            {
+                NomePersonalizzato = true;
+                TxtIdRegistra.Enabled = true;
+                TxtIdRegistra.Focus();
+            }
+            else { 
+                NomePersonalizzato = false;
+                TxtIdRegistra.Enabled = false;
+            }
+        }
+
         private void CheckLogoOspite()
         {
             OleDbConnection cn;

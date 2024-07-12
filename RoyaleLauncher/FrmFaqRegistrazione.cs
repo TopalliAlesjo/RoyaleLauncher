@@ -3,7 +3,6 @@ using System;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -11,7 +10,7 @@ namespace RoyaleLauncher
 {
     public partial class FrmFaqRegistrazione : Form
     {
-        bool Logo = false,Darkmode = false;
+        bool Logo = false, Darkmode = false;
 
         // trascinare finestra
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -43,7 +42,7 @@ namespace RoyaleLauncher
         }
         private void FrmSettingsDatabase_Load(object sender, EventArgs e)
         {
-            
+
             CaricaTrasparenza();// carica trasparenza form
             CaricaColori();// carica stile di colore scelto
 

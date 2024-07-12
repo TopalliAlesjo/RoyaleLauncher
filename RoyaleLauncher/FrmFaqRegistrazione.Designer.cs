@@ -58,12 +58,13 @@
             this.BtnEsci.BackColor = System.Drawing.Color.Transparent;
             this.BtnEsci.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEsci.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEsci.Image = global::RoyaleLauncher.Properties.Resources._return;
+            this.BtnEsci.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnEsci.Location = new System.Drawing.Point(766, 7);
             this.BtnEsci.Margin = new System.Windows.Forms.Padding(0);
             this.BtnEsci.Name = "BtnEsci";
             this.BtnEsci.Size = new System.Drawing.Size(25, 25);
             this.BtnEsci.TabIndex = 3;
-            this.BtnEsci.Text = "X";
             this.BtnEsci.UseVisualStyleBackColor = false;
             this.BtnEsci.Click += new System.EventHandler(this.BtnEsci_Click);
             // 

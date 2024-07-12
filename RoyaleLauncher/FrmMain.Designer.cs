@@ -58,13 +58,13 @@
             this.PcbMain = new System.Windows.Forms.PictureBox();
             this.LblDescCambiaTrasparenza = new System.Windows.Forms.Label();
             this.PnlSettingsTrasparenza = new System.Windows.Forms.Panel();
-            this.RdbTrasparenzaAttiva = new CustomControls.RJControls.RJRadioButton();
-            this.RdbTrasparenzaDisattivata = new CustomControls.RJControls.RJRadioButton();
             this.PnlSettingsUscitaAuto = new System.Windows.Forms.Panel();
-            this.RdbUscitaAutomaticaAttivato = new CustomControls.RJControls.RJRadioButton();
-            this.RdbUscitaAutomaticaDisattivata = new CustomControls.RJControls.RJRadioButton();
             this.LblDescColoreLauncher = new System.Windows.Forms.Label();
             this.CmbColoreLauncher = new CustomControls.RJControls.RJComboBox();
+            this.RdbUscitaAutomaticaAttivato = new CustomControls.RJControls.RJRadioButton();
+            this.RdbUscitaAutomaticaDisattivata = new CustomControls.RJControls.RJRadioButton();
+            this.RdbTrasparenzaAttiva = new CustomControls.RJControls.RJRadioButton();
+            this.RdbTrasparenzaDisattivata = new CustomControls.RJControls.RJRadioButton();
             this.CmbApp4 = new CustomControls.RJControls.RJComboBox();
             this.CmbApp3 = new CustomControls.RJControls.RJComboBox();
             this.CmbApp2 = new CustomControls.RJControls.RJComboBox();
@@ -124,8 +124,10 @@
             this.BtnApp4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnApp4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.BtnApp4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp4.Location = new System.Drawing.Point(0, 337);
             this.BtnApp4.Name = "BtnApp4";
+            this.BtnApp4.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp4.Size = new System.Drawing.Size(189, 42);
             this.BtnApp4.TabIndex = 4;
             this.BtnApp4.Text = "App4";
@@ -140,11 +142,13 @@
             this.BtnSettings.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnSettings.Image = global::RoyaleLauncher.Properties.Resources.settings;
+            this.BtnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnSettings.Location = new System.Drawing.Point(0, 412);
             this.BtnSettings.Name = "BtnSettings";
+            this.BtnSettings.Padding = new System.Windows.Forms.Padding(0, 0, 16, 0);
             this.BtnSettings.Size = new System.Drawing.Size(189, 42);
             this.BtnSettings.TabIndex = 5;
-            this.BtnSettings.Text = "Settings";
+            this.BtnSettings.Text = "Settings    ";
             this.BtnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.BtnSettings.UseVisualStyleBackColor = true;
             this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
@@ -155,8 +159,11 @@
             this.BtnApp3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnApp3.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.BtnApp3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp3.Location = new System.Drawing.Point(0, 289);
             this.BtnApp3.Name = "BtnApp3";
+            this.BtnApp3.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
+            this.BtnApp3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BtnApp3.Size = new System.Drawing.Size(189, 42);
             this.BtnApp3.TabIndex = 3;
             this.BtnApp3.Text = "App3";
@@ -170,8 +177,10 @@
             this.BtnApp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnApp2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.BtnApp2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp2.Location = new System.Drawing.Point(0, 241);
             this.BtnApp2.Name = "BtnApp2";
+            this.BtnApp2.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp2.Size = new System.Drawing.Size(189, 42);
             this.BtnApp2.TabIndex = 2;
             this.BtnApp2.Text = "App2";
@@ -185,8 +194,10 @@
             this.BtnApp1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnApp1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.BtnApp1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp1.Location = new System.Drawing.Point(0, 193);
             this.BtnApp1.Name = "BtnApp1";
+            this.BtnApp1.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp1.Size = new System.Drawing.Size(189, 42);
             this.BtnApp1.TabIndex = 1;
             this.BtnApp1.Text = "App1";
@@ -201,11 +212,13 @@
             this.BtnDashboard.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnDashboard.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnDashboard.Location = new System.Drawing.Point(0, 145);
             this.BtnDashboard.Name = "BtnDashboard";
+            this.BtnDashboard.Padding = new System.Windows.Forms.Padding(0, 0, 16, 0);
             this.BtnDashboard.Size = new System.Drawing.Size(189, 42);
             this.BtnDashboard.TabIndex = 0;
-            this.BtnDashboard.Text = "Home  ";
+            this.BtnDashboard.Text = "Home        ";
             this.BtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.BtnDashboard.UseVisualStyleBackColor = true;
             this.BtnDashboard.Click += new System.EventHandler(this.BtnDashboard_Click);
@@ -457,42 +470,6 @@
             this.PnlSettingsTrasparenza.Size = new System.Drawing.Size(211, 61);
             this.PnlSettingsTrasparenza.TabIndex = 50;
             // 
-            // RdbTrasparenzaAttiva
-            // 
-            this.RdbTrasparenzaAttiva.AutoSize = true;
-            this.RdbTrasparenzaAttiva.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.RdbTrasparenzaAttiva.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.RdbTrasparenzaAttiva.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.RdbTrasparenzaAttiva.Location = new System.Drawing.Point(31, 19);
-            this.RdbTrasparenzaAttiva.MinimumSize = new System.Drawing.Size(0, 21);
-            this.RdbTrasparenzaAttiva.Name = "RdbTrasparenzaAttiva";
-            this.RdbTrasparenzaAttiva.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.RdbTrasparenzaAttiva.Size = new System.Drawing.Size(68, 21);
-            this.RdbTrasparenzaAttiva.TabIndex = 47;
-            this.RdbTrasparenzaAttiva.TabStop = true;
-            this.RdbTrasparenzaAttiva.Text = "Attiva";
-            this.RdbTrasparenzaAttiva.UnCheckedColor = System.Drawing.Color.Gray;
-            this.RdbTrasparenzaAttiva.UseVisualStyleBackColor = true;
-            this.RdbTrasparenzaAttiva.CheckedChanged += new System.EventHandler(this.RdbTrasparenzaAttiva_CheckedChanged);
-            // 
-            // RdbTrasparenzaDisattivata
-            // 
-            this.RdbTrasparenzaDisattivata.AutoSize = true;
-            this.RdbTrasparenzaDisattivata.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.RdbTrasparenzaDisattivata.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RdbTrasparenzaDisattivata.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.RdbTrasparenzaDisattivata.Location = new System.Drawing.Point(106, 19);
-            this.RdbTrasparenzaDisattivata.MinimumSize = new System.Drawing.Size(0, 21);
-            this.RdbTrasparenzaDisattivata.Name = "RdbTrasparenzaDisattivata";
-            this.RdbTrasparenzaDisattivata.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.RdbTrasparenzaDisattivata.Size = new System.Drawing.Size(83, 21);
-            this.RdbTrasparenzaDisattivata.TabIndex = 48;
-            this.RdbTrasparenzaDisattivata.TabStop = true;
-            this.RdbTrasparenzaDisattivata.Text = "Disattiva";
-            this.RdbTrasparenzaDisattivata.UnCheckedColor = System.Drawing.Color.Gray;
-            this.RdbTrasparenzaDisattivata.UseVisualStyleBackColor = true;
-            this.RdbTrasparenzaDisattivata.CheckedChanged += new System.EventHandler(this.RdbTrasparenzaDisattivata_CheckedChanged);
-            // 
             // PnlSettingsUscitaAuto
             // 
             this.PnlSettingsUscitaAuto.Controls.Add(this.LblDescUscitaAutomatica);
@@ -502,6 +479,37 @@
             this.PnlSettingsUscitaAuto.Name = "PnlSettingsUscitaAuto";
             this.PnlSettingsUscitaAuto.Size = new System.Drawing.Size(190, 49);
             this.PnlSettingsUscitaAuto.TabIndex = 51;
+            // 
+            // LblDescColoreLauncher
+            // 
+            this.LblDescColoreLauncher.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.LblDescColoreLauncher.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblDescColoreLauncher.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.LblDescColoreLauncher.Location = new System.Drawing.Point(192, 188);
+            this.LblDescColoreLauncher.Name = "LblDescColoreLauncher";
+            this.LblDescColoreLauncher.Size = new System.Drawing.Size(121, 16);
+            this.LblDescColoreLauncher.TabIndex = 53;
+            this.LblDescColoreLauncher.Text = "Colore Launcher:";
+            // 
+            // CmbColoreLauncher
+            // 
+            this.CmbColoreLauncher.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.CmbColoreLauncher.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.CmbColoreLauncher.BorderSize = 1;
+            this.CmbColoreLauncher.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.CmbColoreLauncher.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CmbColoreLauncher.ForeColor = System.Drawing.Color.DimGray;
+            this.CmbColoreLauncher.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.CmbColoreLauncher.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.CmbColoreLauncher.ListTextColor = System.Drawing.Color.DimGray;
+            this.CmbColoreLauncher.Location = new System.Drawing.Point(211, 207);
+            this.CmbColoreLauncher.MinimumSize = new System.Drawing.Size(200, 30);
+            this.CmbColoreLauncher.Name = "CmbColoreLauncher";
+            this.CmbColoreLauncher.Padding = new System.Windows.Forms.Padding(1);
+            this.CmbColoreLauncher.Size = new System.Drawing.Size(200, 30);
+            this.CmbColoreLauncher.TabIndex = 52;
+            this.CmbColoreLauncher.Texts = "";
+            this.CmbColoreLauncher.OnSelectedIndexChanged += new System.EventHandler(this.CmbColoreLauncher_OnSelectedIndexChanged);
             // 
             // RdbUscitaAutomaticaAttivato
             // 
@@ -539,36 +547,41 @@
             this.RdbUscitaAutomaticaDisattivata.UseVisualStyleBackColor = true;
             this.RdbUscitaAutomaticaDisattivata.CheckedChanged += new System.EventHandler(this.RdbUscitaAutomaticaDisattivata_CheckedChanged);
             // 
-            // LblDescColoreLauncher
+            // RdbTrasparenzaAttiva
             // 
-            this.LblDescColoreLauncher.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.LblDescColoreLauncher.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDescColoreLauncher.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.LblDescColoreLauncher.Location = new System.Drawing.Point(192, 188);
-            this.LblDescColoreLauncher.Name = "LblDescColoreLauncher";
-            this.LblDescColoreLauncher.Size = new System.Drawing.Size(121, 16);
-            this.LblDescColoreLauncher.TabIndex = 53;
-            this.LblDescColoreLauncher.Text = "Colore Launcher:";
+            this.RdbTrasparenzaAttiva.AutoSize = true;
+            this.RdbTrasparenzaAttiva.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.RdbTrasparenzaAttiva.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.RdbTrasparenzaAttiva.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.RdbTrasparenzaAttiva.Location = new System.Drawing.Point(31, 19);
+            this.RdbTrasparenzaAttiva.MinimumSize = new System.Drawing.Size(0, 21);
+            this.RdbTrasparenzaAttiva.Name = "RdbTrasparenzaAttiva";
+            this.RdbTrasparenzaAttiva.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.RdbTrasparenzaAttiva.Size = new System.Drawing.Size(68, 21);
+            this.RdbTrasparenzaAttiva.TabIndex = 47;
+            this.RdbTrasparenzaAttiva.TabStop = true;
+            this.RdbTrasparenzaAttiva.Text = "Attiva";
+            this.RdbTrasparenzaAttiva.UnCheckedColor = System.Drawing.Color.Gray;
+            this.RdbTrasparenzaAttiva.UseVisualStyleBackColor = true;
+            this.RdbTrasparenzaAttiva.CheckedChanged += new System.EventHandler(this.RdbTrasparenzaAttiva_CheckedChanged);
             // 
-            // CmbColoreLauncher
+            // RdbTrasparenzaDisattivata
             // 
-            this.CmbColoreLauncher.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.CmbColoreLauncher.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.CmbColoreLauncher.BorderSize = 1;
-            this.CmbColoreLauncher.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.CmbColoreLauncher.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.CmbColoreLauncher.ForeColor = System.Drawing.Color.DimGray;
-            this.CmbColoreLauncher.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.CmbColoreLauncher.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.CmbColoreLauncher.ListTextColor = System.Drawing.Color.DimGray;
-            this.CmbColoreLauncher.Location = new System.Drawing.Point(211, 207);
-            this.CmbColoreLauncher.MinimumSize = new System.Drawing.Size(200, 30);
-            this.CmbColoreLauncher.Name = "CmbColoreLauncher";
-            this.CmbColoreLauncher.Padding = new System.Windows.Forms.Padding(1);
-            this.CmbColoreLauncher.Size = new System.Drawing.Size(200, 30);
-            this.CmbColoreLauncher.TabIndex = 52;
-            this.CmbColoreLauncher.Texts = "";
-            this.CmbColoreLauncher.OnSelectedIndexChanged += new System.EventHandler(this.CmbColoreLauncher_OnSelectedIndexChanged);
+            this.RdbTrasparenzaDisattivata.AutoSize = true;
+            this.RdbTrasparenzaDisattivata.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.RdbTrasparenzaDisattivata.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RdbTrasparenzaDisattivata.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.RdbTrasparenzaDisattivata.Location = new System.Drawing.Point(106, 19);
+            this.RdbTrasparenzaDisattivata.MinimumSize = new System.Drawing.Size(0, 21);
+            this.RdbTrasparenzaDisattivata.Name = "RdbTrasparenzaDisattivata";
+            this.RdbTrasparenzaDisattivata.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.RdbTrasparenzaDisattivata.Size = new System.Drawing.Size(83, 21);
+            this.RdbTrasparenzaDisattivata.TabIndex = 48;
+            this.RdbTrasparenzaDisattivata.TabStop = true;
+            this.RdbTrasparenzaDisattivata.Text = "Disattiva";
+            this.RdbTrasparenzaDisattivata.UnCheckedColor = System.Drawing.Color.Gray;
+            this.RdbTrasparenzaDisattivata.UseVisualStyleBackColor = true;
+            this.RdbTrasparenzaDisattivata.CheckedChanged += new System.EventHandler(this.RdbTrasparenzaDisattivata_CheckedChanged);
             // 
             // CmbApp4
             // 

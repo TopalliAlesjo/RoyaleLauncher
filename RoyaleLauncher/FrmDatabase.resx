@@ -117,13 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnEsci.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAAImEAACJhATbAKoYAAAAHdElNRQfoBwwADR0YnUJzAAAA
+        GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAANhJREFUOE+t0c+qAWEYgPGhSOSExM5e
+        No6wotyGpY0FLkCykrJma2PrCpSF0umUIn+OlI1slEvA6pzn/aYkjmFqnvrV976LmfkazcqcsOlHc6XR
+        R0xNJkpijQFCsni3DH4wwScCCD7hgx3XdvjFAfKQjYElekhA1cEFX6ighPI/ZF/FN7bIQnOhgSMKsnhR
+        GCOM1UTyi5rYIy6LFxVx1o968gU5+NVknFzhpB/NFYHce6imuxzIo47anRYWWCGFhzzoYo7pjRnkjW1E
+        8TS5/we8N2R2w4o07Q8/4y3Q2KD+pgAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="OfdFileStart.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="OfdFileFoto.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>156, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAEBAAAAEAIABoBAAAlgAAABgYAAABACAAiAkAAP4EAAAgIAAAAQAgAKgQAACGDgAAMDAAAAEA

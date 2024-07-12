@@ -1,4 +1,6 @@
-﻿namespace RoyaleLauncher
+﻿using System;
+
+namespace RoyaleLauncher
 {
     partial class FrmApplicazioni
     {
@@ -106,8 +108,10 @@
             this.BtnApp6.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp6.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp6.Location = new System.Drawing.Point(0, 401);
             this.BtnApp6.Name = "BtnApp6";
+            this.BtnApp6.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp6.Size = new System.Drawing.Size(189, 42);
             this.BtnApp6.TabIndex = 5;
             this.BtnApp6.Text = "App6";
@@ -122,8 +126,10 @@
             this.BtnApp5.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp5.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp5.Location = new System.Drawing.Point(0, 353);
             this.BtnApp5.Name = "BtnApp5";
+            this.BtnApp5.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp5.Size = new System.Drawing.Size(189, 42);
             this.BtnApp5.TabIndex = 4;
             this.BtnApp5.Text = "App5";
@@ -138,8 +144,10 @@
             this.BtnApp4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp4.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp4.Location = new System.Drawing.Point(0, 305);
             this.BtnApp4.Name = "BtnApp4";
+            this.BtnApp4.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp4.Size = new System.Drawing.Size(189, 42);
             this.BtnApp4.TabIndex = 3;
             this.BtnApp4.Text = "App4";
@@ -154,8 +162,10 @@
             this.BtnApp3.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp3.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp3.Location = new System.Drawing.Point(0, 106);
             this.BtnApp3.Name = "BtnApp3";
+            this.BtnApp3.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp3.Size = new System.Drawing.Size(189, 42);
             this.BtnApp3.TabIndex = 2;
             this.BtnApp3.Text = "App3";
@@ -170,8 +180,10 @@
             this.BtnApp2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp2.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp2.Location = new System.Drawing.Point(0, 58);
             this.BtnApp2.Name = "BtnApp2";
+            this.BtnApp2.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp2.Size = new System.Drawing.Size(189, 42);
             this.BtnApp2.TabIndex = 1;
             this.BtnApp2.Text = "App2";
@@ -186,8 +198,10 @@
             this.BtnApp1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp1.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp1.Location = new System.Drawing.Point(0, 10);
             this.BtnApp1.Name = "BtnApp1";
+            this.BtnApp1.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp1.Size = new System.Drawing.Size(189, 42);
             this.BtnApp1.TabIndex = 0;
             this.BtnApp1.Text = "App1";
@@ -252,8 +266,10 @@
             this.BtnApp12.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp12.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp12.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp12.Location = new System.Drawing.Point(0, 401);
             this.BtnApp12.Name = "BtnApp12";
+            this.BtnApp12.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp12.Size = new System.Drawing.Size(189, 42);
             this.BtnApp12.TabIndex = 5;
             this.BtnApp12.Text = "App12";
@@ -268,8 +284,10 @@
             this.BtnApp11.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp11.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp11.Location = new System.Drawing.Point(0, 353);
             this.BtnApp11.Name = "BtnApp11";
+            this.BtnApp11.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp11.Size = new System.Drawing.Size(189, 42);
             this.BtnApp11.TabIndex = 4;
             this.BtnApp11.Text = "App11";
@@ -284,8 +302,10 @@
             this.BtnApp10.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp10.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp10.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp10.Location = new System.Drawing.Point(0, 305);
             this.BtnApp10.Name = "BtnApp10";
+            this.BtnApp10.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp10.Size = new System.Drawing.Size(189, 42);
             this.BtnApp10.TabIndex = 3;
             this.BtnApp10.Text = "App10";
@@ -300,8 +320,10 @@
             this.BtnApp9.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp9.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp9.Location = new System.Drawing.Point(0, 106);
             this.BtnApp9.Name = "BtnApp9";
+            this.BtnApp9.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp9.Size = new System.Drawing.Size(189, 42);
             this.BtnApp9.TabIndex = 2;
             this.BtnApp9.Text = "App9";
@@ -316,8 +338,10 @@
             this.BtnApp8.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp8.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp8.Location = new System.Drawing.Point(0, 58);
             this.BtnApp8.Name = "BtnApp8";
+            this.BtnApp8.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp8.Size = new System.Drawing.Size(189, 42);
             this.BtnApp8.TabIndex = 1;
             this.BtnApp8.Text = "App8";
@@ -332,8 +356,10 @@
             this.BtnApp7.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnApp7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BtnApp7.Image = global::RoyaleLauncher.Properties.Resources.home;
+            this.BtnApp7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnApp7.Location = new System.Drawing.Point(0, 10);
             this.BtnApp7.Name = "BtnApp7";
+            this.BtnApp7.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.BtnApp7.Size = new System.Drawing.Size(189, 42);
             this.BtnApp7.TabIndex = 0;
             this.BtnApp7.Text = "App7";
