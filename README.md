@@ -6,7 +6,7 @@ Royale Launcher è un piccolo progetto nato per semplificare l'accesso alle appl
 ## Caratteristiche principali
 
 - **Organizzazione delle Applicazioni**: Royale Launcher consente agli utenti di raggruppare fino a 12 diverse applicazioni in un unico launcher, facilitando l'avvio delle app preferite senza la necessità di una ricerca ripetuta.
-  
+
 - **Personalizzazione**: Il launcher è completamente personalizzabile secondo i gusti dell'utente. Gli utenti possono scegliere lo sfondo, l'ordine delle applicazioni e altre impostazioni per creare un'interfaccia che si adatti perfettamente alle loro esigenze. 
 
 ## Screenshots
@@ -36,3 +36,6 @@ Se trovi un bug o riscontri un problema con RoyaleLauncher, ti invitiamo gentilm
 Prima di aprire una nuova issue, per favore controlla che il bug non sia già stato segnalato. Includi tutti i dettagli pertinenti, come il passo per riprodurre il problema e il comportamento atteso.
 
 Grazie per il tuo contributo nel migliorare RoyaleLauncher!
+
+# Nota Bene
+Royale Launcher non ha una firma digitale valida, il che potrebbe causare malfunzionamenti a causa degli antivirus che non riconoscono l'applicazione. Pertanto, è necessario esonerare l'app dagli antivirus per garantire il corretto funzionamento. Inoltre, le modifiche come il cambio di icone o logo potrebbero non essere visibili se l'app è bloccata dall'antivirus.
