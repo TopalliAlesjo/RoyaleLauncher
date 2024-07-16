@@ -556,6 +556,9 @@ namespace RoyaleLauncher
             CmbNomeAppEliminazione.BorderColor = Variabili.Scritte;
             CmbNomeAppEliminazione.IconColor = Variabili.Scritte;
             CmbNomeAppEliminazione.ListBackColor = Variabili.PnlSX;
+            // checkbox
+            CkbNomePersonalizzato.BackColor = Variabili.PnlSX;
+            CkbNomePersonalizzato.ForeColor = Variabili.Scritte;
             // bottoni pnlSX fore color
             BtnRegistrazione.ForeColor = Variabili.Scritte;
             BtnEliminazione.ForeColor = Variabili.Scritte;
