@@ -7,7 +7,7 @@ Royale Launcher è un piccolo progetto nato per semplificare l'accesso alle appl
 
 - **Organizzazione delle Applicazioni**: Royale Launcher consente agli utenti di raggruppare fino a 12 diverse applicazioni in un unico launcher, facilitando l'avvio delle app preferite senza la necessità di una ricerca ripetuta.
   
-- **Personalizzazione**: Il launcher è completamente personalizzabile secondo i gusti dell'utente. Gli utenti possono scegliere lo sfondo, l'ordine delle applicazioni e altre impostazioni per creare un'interfaccia che si adatti perfettamente alle loro esigenze.
+- **Personalizzazione**: Il launcher è completamente personalizzabile secondo i gusti dell'utente. Gli utenti possono scegliere lo sfondo, l'ordine delle applicazioni e altre impostazioni per creare un'interfaccia che si adatti perfettamente alle loro esigenze. 
 
 ## Screenshots
 
